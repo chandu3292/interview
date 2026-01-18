@@ -11,7 +11,7 @@ from realtime_ws import run_realtime_loop
 st.set_page_config(page_title="Realtime Voice RAG", layout="centered")
 st.title("📞 Realtime Voice RAG Call")
 
-TARGET_SR = 16000
+TARGET_SR = 24000
 ASSISTANT_SR = 24000
 
 
